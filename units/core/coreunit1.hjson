@@ -1,0 +1,86 @@
+name: Minos
+description: The lowest tier of unit on ziria. it is fragile but fast, and has a small plasma cannon that can deal with enemy units.
+type: flying
+lowAltitude: true
+speed: 2
+rotateSpeed: 5
+accel: 0.2
+drag: 0.1
+flying: true
+health: 100
+hitSize: 10
+armor: 1
+itemCapacity: 30
+outlineColor: 36363c
+engineOffset: 5
+faceTarget: true
+controller: BuilderAI
+mineTier: 2
+mineSpeed: 5
+buildSpeed: 1
+buildBeamOffset: 5
+isEnemy: false
+weapons: [
+{
+name: Weapon
+x: 0
+y: 3
+mirror: false
+shoot: {
+type: ShootPattern
+shots: 2
+}
+top: false
+rotate: false
+reload: 45
+recoil: 3
+shootSound: shoot
+bullet: {
+homingPower: 0.3
+homingRange: 60
+buildingDamageMultiplier: 0.1
+buildingDamageMultiplier: 0.01
+speed: 4
+lifetime: 40
+damage: 13
+width: 9
+height: 20
+frontColor: ff0095
+backColor: ff00ff
+despawnHit: true
+despawnEffect: none
+hitEffect: [
+{
+type: ParticleEffect
+particles: 6
+line: true
+lifetime: 15
+length: 15
+lenFrom: 3
+lenTo: 0
+strokeFrom: 1
+strokeTo: 0
+colorFrom: f98520
+colorTo: f98520
+}
+]
+shootEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+colorFrom: ffffff
+colorTo: ff00ff
+sizeFrom: 1
+sizeTo: 15
+lifetime: 10
+}
+]
+}
+trailChance: 0.3
+trailLength: 4
+trailWidth: 2.5
+trailColor: f98520
+}
+}
+]

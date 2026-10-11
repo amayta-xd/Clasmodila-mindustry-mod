@@ -1,0 +1,24 @@
+name: Core: Atom
+type: CoreBlock
+description: The first core designed by sharded to send you at Clasmodila.
+details: This core is quite fragile due to the planet hazard and storage space, so better cover it with walls and turrets nearby.
+buildTime: 1800
+health: 1500
+armor: 5
+size: 3
+absorbLasers: false
+itemCapacity: 4000
+unitCapModifier: 8
+unitType: coreunit1
+requirements: [
+quartz/1000
+polycarbon/250
+]
+category: effect
+research: {
+root: true
+name: Clasmodila
+requiresUnlock: false
+planet: clasmodila
+}
+alwaysUnlocked: true

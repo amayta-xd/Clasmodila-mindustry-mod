@@ -1,0 +1,29 @@
+name: Core: Fission
+type: CoreBlock
+description: The second core designed by sharded.
+details: This core outclasses the previous core with better storage, health and armor.
+buildTime: 3600
+health: 6000
+armor: 8
+size: 4
+absorbLasers: false
+itemCapacity: 12000
+unitCapModifier: 8
+unitType: coreunit2
+requirements: [
+quartz/3000
+zinc/2000
+polycarbon/1500
+vanadium/1000
+]
+category: effect
+research: {
+parent: core-atom
+}
+researchCost: [
+quartz/9000
+zinc/6000
+polycarbon/4500
+vanadium/2000
+]
+alwaysUnlocked: false

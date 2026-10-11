@@ -1,0 +1,71 @@
+localizedName: Clasmodila
+generator: PlanetGenerator
+parent: sun
+iconColor: e5d3b3
+orbitRadius: 70
+hasAtmosphere: true
+updateLighting: false
+atmosphereRadIn: 0.05
+atmosphereRadOut: 0.17
+atmosphereColor: f2a760
+drawOrbit: true
+accessible: true
+alwaysUnlocked: true
+defaultCore: core-atom
+sectorSeed: 69
+startSector: 8
+sectorSize: 2
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: true
+radius: 1.2
+hiddenItems: [
+copper
+lead
+scrap
+graphite
+coal
+titanium
+thorium
+silicon
+plastanium
+phase-fabric
+surge-alloy
+spore-pod
+sand
+blast-compound
+pyratite
+metaglass
+beryllium
+oxide
+tungsten
+carbide
+fissile-matter
+dormant-cyst
+]
+cloudMesh: {
+type: HexSkyMesh
+planet: serpulo
+seed: 3
+speed: 1.75
+radius: 0.25
+divisions: 4
+color: 313739
+octaves: 2
+persistence: 1
+scl: 2
+thresh: 0.45
+}
+mesh: {
+type: NoiseMesh
+planet: erekir
+seed: 69
+color1: d6c698
+color2: 18141a
+divisions: 4
+radius: 0.9
+octaves: 8
+persistence: 1
+scale: 3
+mag: 3
+}

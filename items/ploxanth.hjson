@@ -1,0 +1,20 @@
+type: item
+name: Ploxanth
+description: artificial explosive material used as ammunition or mines.
+cost: 1
+color: c42f3e
+flammability: 0.2
+explosiveness: 1
+radioactivity: 0
+charge: 0
+hardness: 1
+research: {
+parent: quartz
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+alwaysUnlocked: false

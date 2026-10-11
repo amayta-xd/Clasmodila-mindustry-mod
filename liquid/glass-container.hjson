@@ -1,0 +1,23 @@
+name: Glass Container
+type: LiquidRouter
+description: Stores medium amounts of liquids.
+buildTime: 60
+health: 60
+size: 2
+liquidCapacity: 300
+category: liquid
+placeableLiquid: false
+hasPower: false
+requirements: [
+zinc/100
+polycarbon/30
+glass/50
+]
+research: {
+parent: zinc-conduit-router
+}
+researchCost: [
+zinc/1000
+polycarbon/300
+glass/500
+]

@@ -1,0 +1,17 @@
+type: Liquid
+gas: true
+flammability: 1
+temperature: 0.50
+heatCapacity: 0.50
+viscosity: 0.50
+explosiveness: 0
+blockReactive: false
+research: {
+parent: ozone
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}

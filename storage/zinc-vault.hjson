@@ -1,0 +1,29 @@
+name: Zinc vault
+type: StorageBlock
+description:
+'
+Stores a medium amount of items of each type. Expands storage when placed next to a core. Contents can be retrieved with an unloader.
+'
+buildTime: 300
+health: 600
+scaledHealth: 110
+size: 3
+itemCapacity: 600
+requirements: [
+quartz/750
+zinc/500
+vanadium/250
+polycarbon/375
+glass/250
+]
+category: effect
+research: {
+parent: zinc-container
+}
+researchCost: [
+quartz/7500
+zinc/5000
+vanadium/2500
+polycarbon/3750
+glass/2500
+]

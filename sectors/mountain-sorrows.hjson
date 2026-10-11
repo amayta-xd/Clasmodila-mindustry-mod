@@ -1,0 +1,22 @@
+name: Desertic Valley
+description:
+'
+Across the mountains lies a place covered in new richer materials.
+Set up an outpost and take the rest with you.
+'
+sector: 48
+planet: clasmodila
+captureWave: 31
+difficulty: 8
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+parent: desertic-valley
+objectives: [
+{
+type: SectorComplete
+preset: desertic-valley
+}
+]
+}
+alwaysUnlocked: false

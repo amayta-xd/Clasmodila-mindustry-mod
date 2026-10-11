@@ -1,0 +1,20 @@
+name: Zinc Conduit Bridge
+type: LiquidBridge
+description: Allows transporting liquids over terrain or structures.
+buildTime: 15
+health: 120
+liquidCapacity: 10
+category: liquid
+hasPower: false
+range: 4
+requirements: [
+zinc/10
+quartz/20
+]
+research: {
+parent: zinc-conduit
+}
+researchCost: [
+zinc/400
+quartz/800
+]

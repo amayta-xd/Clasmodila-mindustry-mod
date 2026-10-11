@@ -1,0 +1,18 @@
+name: Dark Remnants
+description: After some research this area supplies the Anthalos regiment with dark water. Be aware the enemy will send big forces so prepare yourself and hold your ground.
+sector: 9
+planet: clasmodila
+captureWave: 21
+difficulty: 7
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+parent: revelation
+objectives: [
+{
+type: SectorComplete
+preset: revelation
+}
+]
+}
+alwaysUnlocked: false

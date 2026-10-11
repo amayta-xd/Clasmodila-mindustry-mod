@@ -1,0 +1,45 @@
+name: Polycarbon Large Manufacturer
+type: GenericCrafter
+description: Produces polycarbon more efficiently. Uses cooled dark water as a coolant.
+health: 200
+size: 3
+buildTime: 150
+hasItems: true
+itemCapacity: 20
+liquidCapacity: 60
+craftTime: 180
+craftEffect: none
+hasPower: true
+updateEffect: none
+consumes: {
+power: 4
+items: [
+carbon/8
+]
+liquids: [
+cooled-dark-water/0.05
+]
+}
+requirements: [
+quartz/200
+polycarbon/40
+zinc/150
+glass/100
+]
+category: crafting
+outputItem: polycarbon/4
+research: {
+parent: glass-oven
+objectives: [
+{
+type: OnSector
+preset: desertic-valley
+}
+]
+}
+researchCost: [
+quartz/2000
+polycarbon/400
+zinc/1500
+glass/1000
+]

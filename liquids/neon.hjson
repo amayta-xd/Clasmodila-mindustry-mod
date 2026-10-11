@@ -1,0 +1,20 @@
+type: Liquid
+gas: true
+name: Neon
+description: Used in advanced tech that requires laser tech or complex buildings.
+color: ec5260
+flammability: 0
+temperature: 0.50
+heatCapacity: 0.80
+viscosity: 0.50
+explosiveness: 0
+blockReactive: false
+research: {
+parent: hydrogen
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}

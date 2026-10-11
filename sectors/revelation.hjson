@@ -1,0 +1,18 @@
+name: Revelation
+description: After some research from the part of Sharded they discovered the enemy attacking us was Anthalos, a new regiment settled not far from here. This time your new task will be to research new technology from the resources founded in this sector.
+sector: 20
+planet: clasmodila
+captureWave: 11
+difficulty: 4
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+parent: white-debris
+objectives: [
+{
+type: SectorComplete
+preset: white-debris
+}
+]
+}
+alwaysUnlocked: false

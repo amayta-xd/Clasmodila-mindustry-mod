@@ -1,0 +1,20 @@
+type: item
+name: Zinc
+description: A durable material for complementing quartz fragility.
+cost: 1
+color: d0cfc8
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 3
+research: {
+parent: polycarbon
+objectives: [
+{
+type: OnSector
+preset: white-debris
+}
+]
+}
+alwaysUnlocked: false

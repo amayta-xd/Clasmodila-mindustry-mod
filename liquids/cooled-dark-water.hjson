@@ -1,0 +1,22 @@
+type: Liquid
+name: Cooled Dark Water
+description:
+'''
+Cooled dark water, as the name suggest this water type its used in different coolant systems due to its effectiveness.
+'''
+color: 749998
+flammability: 0
+temperature: 0.10
+heatCapacity: 0.50
+viscosity: 0.50
+explosiveness: 0
+blockReactive: false
+research: {
+parent: dark-water
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
