@@ -1,7 +1,0 @@
-name: Selenium Ore
-type: OreBlock
-oreDefault: true
-oreScale: 27
-oreThreshold: 1
-itemDrop: selenium
-variants: 3

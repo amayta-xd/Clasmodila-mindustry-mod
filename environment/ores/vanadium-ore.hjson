@@ -1,7 +1,0 @@
-name: Vanadium Ore
-type: OreBlock
-oreDefault: true
-oreScale: 27
-oreThreshold: 1
-itemDrop: vanadium
-variants: 3

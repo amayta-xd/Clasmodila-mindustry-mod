@@ -1,7 +1,0 @@
-name: Uranium Ore
-type: OreBlock
-oreDefault: true
-oreScale: 27
-oreThreshold: 1
-itemDrop: uranium
-variants: 1

@@ -1,6 +1,0 @@
-name: Limestone Wall
-type: StaticWall
-attributes: {
-limestone: 1
-}
-variants: 2
