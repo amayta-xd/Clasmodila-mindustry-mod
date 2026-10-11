@@ -1,0 +1,14 @@
+name: Quartz Sorter
+type: Sorter
+description: Filters items, any unwanted material goes to the sides.
+health: 20
+requirements: [
+quartz/5
+]
+alwaysUnlocked: false
+research: {
+parent: quartz-router
+}
+researchCost: [
+quartz/100
+]

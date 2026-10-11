@@ -1,0 +1,48 @@
+name: Hammer Drill
+description: Upgraded mining drill for resources. Capable of mime other resources and faster.
+type: drill
+hasLiquids: false
+hasPower: true
+health: 400
+size: 3
+itemCapacity: 30
+liquidCapacity: 30
+tier: 6
+drillTime: 180
+buildTime: 120
+drawMineItem: true
+liquidBoostIntensity: 1
+rotateSpeed: 6
+consumes: {
+power: 3
+liquid: {
+liquid: cooled-dark-water
+amount: 0.1
+optional: true
+booster: true
+}
+}
+liquidBoostIntensity: 1.50
+requirements: [
+quartz/400
+zinc/300
+polycarbon/80
+glass/50
+]
+category: production
+alwaysUnlocked: false
+research: {
+parent: polycarbon-drill
+objectives: [
+{
+type: OnSector
+preset: desertic-valley
+}
+]
+}
+researchCost: [
+quartz/4000
+zinc/3000
+polycarbon/800
+glass/500
+]

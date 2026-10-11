@@ -1,0 +1,16 @@
+name: Quartz Junction
+type: Junction
+description: Makes items pass between conveyors.
+health: 20
+requirements: [
+quartz/2
+]
+alwaysUnlocked: false
+speed: 39
+capacity: 12
+research: {
+parent: quartz-conveyor
+}
+researchCost: [
+quartz/50
+]

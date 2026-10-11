@@ -1,0 +1,15 @@
+name: Quartz Distribuitor
+type: Router
+description: Distributes items equally up to 7 sides.
+size: 2
+health: 80
+requirements: [
+quartz/20
+]
+alwaysUnlocked: false
+research: {
+parent: quartz-bridge
+}
+researchCost: [
+quartz/200
+]

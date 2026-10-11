@@ -1,0 +1,18 @@
+description: Allows transporting items over terrain or structures.
+type: ItemBridge
+name: Quartz Bridge
+buildTime: 15
+health: 30
+range: 4
+transportTime: 270
+speed: 3.6
+hasPower: false
+requirements: [
+quartz/10
+]
+research: {
+parent: quartz-junction
+}
+researchCost: [
+quartz/200
+]

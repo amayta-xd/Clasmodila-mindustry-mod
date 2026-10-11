@@ -1,0 +1,14 @@
+name: Quartz Router
+type: Router
+description: Distributes items equally up to 3 sides.
+health: 20
+requirements: [
+quartz/5
+]
+alwaysUnlocked: false
+research: {
+parent: quartz-conveyor
+}
+researchCost: [
+quartz/50
+]

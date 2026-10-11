@@ -1,0 +1,31 @@
+name: Polycarbon Drill
+description: Upgraded mining drill for resources. Capable of mime other resources and faster.
+type: drill
+hasLiquids: false
+health: 160
+size: 2
+itemCapacity: 12
+tier: 4
+drillTime: 295
+buildTime: 20
+drawMineItem: true
+liquidBoostIntensity: 1
+requirements: [
+quartz/36
+polycarbon/8
+]
+category: production
+alwaysUnlocked: false
+research: {
+parent: quartz-drill
+objectives: [
+{
+type: OnSector
+preset: white-debris
+}
+]
+}
+researchCost: [
+quartz/360
+polycarbon/80
+]

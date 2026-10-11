@@ -1,0 +1,22 @@
+name: Quartz Drill
+description: Basic mining drill for resources.
+type: drill
+hasLiquids: false
+health: 80
+size: 2
+itemCapacity: 12
+tier: 2
+drillTime: 425
+drawMineItem: true
+liquidBoostIntensity: 1
+requirements: [
+quartz/12
+]
+category: production
+alwaysUnlocked: false
+research: {
+parent: core-atom
+}
+researchCost: [
+quartz/30
+]

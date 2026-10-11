@@ -1,0 +1,15 @@
+name: Quartz Inverted Sorter
+type: Sorter
+description: Filters items, any unwanted material goes to the front.
+health: 20
+invert: true
+requirements: [
+quartz/5
+]
+alwaysUnlocked: false
+research: {
+parent: quartz-sorter
+}
+researchCost: [
+quartz/100
+]

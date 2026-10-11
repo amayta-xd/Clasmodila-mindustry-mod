@@ -1,0 +1,7 @@
+name: Zirconium Ore
+type: OreBlock
+oreDefault: true
+oreScale: 27
+oreThreshold: 1
+itemDrop: zirconium
+variants: 3

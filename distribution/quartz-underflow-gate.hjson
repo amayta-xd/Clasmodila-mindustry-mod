@@ -1,0 +1,15 @@
+name: Quartz Underflow Gate
+type: OverflowGate
+description: Reroutes items to the sides if the front is blocked.
+health: 20
+invert: true
+requirements: [
+quartz/5
+]
+alwaysUnlocked: false
+research: {
+parent: quartz-overflow-gate
+}
+researchCost: [
+quartz/100
+]
