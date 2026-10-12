@@ -1,0 +1,7 @@
+name: Carbon Ore
+type: OreBlock
+oreDefault: true
+oreScale: 27
+oreThreshold: 1
+itemDrop: carbon
+variants: 3

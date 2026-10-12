@@ -1,0 +1,22 @@
+name: Zinc Conduit
+type: Conduit
+description: Transports liquids to other places.
+leaks: true
+health: 30
+hasPower: false
+placeableLiquid: true
+requirements: [
+zinc/1
+quartz/2
+]
+liquidCapacity: 25
+category: liquid
+junctionReplacement: zinc-conduit-junction
+bridgeReplacement: zinc-conduit-bridge
+research: {
+parent: zinc-mechanical-pump
+}
+researchCost: [
+zinc/200
+quartz/400
+]

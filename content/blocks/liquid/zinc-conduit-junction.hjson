@@ -1,0 +1,18 @@
+name: Zinc Conduit Junction
+type: LiquidJunction
+description: Makes liquids pass between pipes.
+buildTime: 10
+health: 60
+category: liquid
+hasPower: false
+requirements: [
+zinc/3
+quartz/6
+]
+research: {
+parent: zinc-conduit
+}
+researchCost: [
+zinc/300
+quartz/600
+]

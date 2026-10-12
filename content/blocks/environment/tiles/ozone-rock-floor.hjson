@@ -1,0 +1,6 @@
+name: Ozone Rock Floor
+type: Floor
+variants: 4
+attributes: {
+ozone: 0.5
+}

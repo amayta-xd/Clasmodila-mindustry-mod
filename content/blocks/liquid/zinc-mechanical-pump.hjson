@@ -1,0 +1,26 @@
+name: Zinc Mechanical Pump
+type: Pump
+description: Pumps liquids at a slow rate. Doesnt require power to run.
+buildTime: 30
+health: 60
+size: 1
+pumpAmount: 0.10
+squareSprite: false
+placeableLiquid: true
+category: liquid
+hasPower: false
+requirements: [
+zinc/25
+]
+research: {
+parent: core-atom
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+zinc/500
+]

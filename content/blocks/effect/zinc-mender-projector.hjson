@@ -1,0 +1,34 @@
+name: Zinc Mender Projector
+type: MendProjector
+health: 100
+size: 1
+range: 40
+reload: 200
+phase: 76619d
+color: 996de8
+phaseRangeBoost: 1
+hasItems: false
+description: Slowly recovers structures health.
+hasPower: true
+healPercent: 4
+consumes: {
+power: 0.5
+}
+category: effect
+requirements: [
+zinc/50
+polycarbon/5
+]
+research: {
+parent: carbon-generator
+objectives: [
+{
+type: OnSector
+preset: white-debris
+}
+]
+}
+researchCost: [
+zinc/500
+polycarbon/50
+]
