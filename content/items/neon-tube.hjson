@@ -1,0 +1,20 @@
+type: item
+name: Neon Tube
+description: Mainly used in units or defensive structures.
+cost: 1
+color: bf2937
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+research: {
+parent: glass
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+alwaysUnlocked: false

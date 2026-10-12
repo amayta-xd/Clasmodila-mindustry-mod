@@ -1,0 +1,21 @@
+name: Rookie-Aisle
+description:
+'
+A sector followed by a passage with more enemies on the way.
+Use the terrain at your advantage and set up an outpost.
+'
+sector: 76
+planet: clasmodila
+captureWave: 11
+difficulty: 4
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+parent: gateway
+objectives: [
+{
+type: SectorComplete
+preset: gateway
+}
+]
+}

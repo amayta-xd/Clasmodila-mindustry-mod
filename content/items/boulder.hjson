@@ -1,0 +1,20 @@
+type: item
+name: Boulder
+description: Contains bits of vanadium, zirconium and selenium.
+cost: 1
+color: ab4d58
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 3
+research: {
+parent: zinc
+objectives: [
+{
+type: OnSector
+preset: white-debris
+}
+]
+}
+alwaysUnlocked: false

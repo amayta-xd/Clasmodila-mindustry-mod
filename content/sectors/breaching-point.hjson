@@ -1,0 +1,17 @@
+name: Breaching Point
+description: "[red]welcome to hell."
+sector: 51
+planet: clasmodila
+difficulty: 6
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+parent: revelation
+objectives: [
+{
+type: SectorComplete
+preset: revelation
+}
+]
+}
+alwaysUnlocked: false

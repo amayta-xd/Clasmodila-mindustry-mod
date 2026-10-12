@@ -1,0 +1,20 @@
+type: item
+name: Zirconium
+description: Hardened material used in different buildings and factories.
+cost: 1
+color: ecbd82
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 5
+research: {
+parent: boulder
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+alwaysUnlocked: false

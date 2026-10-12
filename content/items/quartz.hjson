@@ -1,0 +1,20 @@
+type: item
+name: Quartz
+description: The heart of your buildings material.
+cost: 1
+color: dceaee
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+research: {
+parent: core-atom
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+alwaysUnlocked: false

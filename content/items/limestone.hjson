@@ -1,0 +1,20 @@
+type: item
+name: Limestone
+description: Sand like material for filtering or making glass.
+cost: 1
+color: e9d8a1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+research: {
+parent: zinc
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+alwaysUnlocked: false

@@ -1,0 +1,11 @@
+type: item
+name: Uranium
+description: Radioactive material used in advanced and nuclear tech.
+cost: 1
+color: ffe342
+flammability: 0
+explosiveness: 0.1
+radioactivity: 2
+charge: 0
+hardness: 7
+alwaysUnlocked: false

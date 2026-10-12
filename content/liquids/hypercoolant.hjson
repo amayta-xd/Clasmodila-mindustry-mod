@@ -1,0 +1,19 @@
+type: Liquid
+name: Hypercoolant
+description: Produced to maintain nuclear reactors safe from overheating and cooling turrets.
+color: 645db3
+flammability: 0
+temperature: 0
+heatCapacity: 1.50
+viscosity: 0.50
+explosiveness: 0
+blockReactive: false
+research: {
+parent: neon
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
