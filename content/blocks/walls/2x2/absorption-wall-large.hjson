@@ -1,0 +1,24 @@
+name: Large Absorption Wall
+type: wall
+category: defense
+description:
+'
+Large defensive structure, protects buildings from damage. Absorbs lasers and arcs.
+'
+health: 3600
+size: 2
+requirements: [
+vithorium/20
+]
+research: {
+parent: absorption-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+vithorium/200
+]

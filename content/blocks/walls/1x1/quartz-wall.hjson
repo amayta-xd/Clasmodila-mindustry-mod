@@ -1,0 +1,26 @@
+name: Quartz Wall
+type: wall
+category: defense
+buildTime: 4
+description:
+'
+Tiny defensive structure, protects buildings from damage.
+Due to the material being fragile this wall has low health compared to other walls.
+'
+health: 100
+size: 1
+requirements: [
+quartz/10
+]
+research: {
+parent: core-atom
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+researchCost: [
+quartz/100
+]

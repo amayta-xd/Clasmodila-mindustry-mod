@@ -1,0 +1,24 @@
+name: Large Polycarbon Wall
+type: wall
+category: defense
+description:
+'
+Large defensive structure, protects buildings from damage.
+'
+health: 1000
+size: 2
+requirements: [
+polycarbon/20
+]
+research: {
+parent: polycarbon-wall
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+researchCost: [
+polycarbon/200
+]

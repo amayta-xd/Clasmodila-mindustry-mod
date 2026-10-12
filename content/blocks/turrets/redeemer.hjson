@@ -1,0 +1,56 @@
+description:
+'''
+Works like its counterpart Titan, instead of shooting explosives shoots incendiary rounds.
+Can be loaded with other ammo types making the bullets have effects.
+'''
+name: Redeemer
+type: ItemTurret
+category: turret
+buildTime: 270
+health: 200
+size: 3
+range: 200
+reload:	20
+coolant: {
+type: ConsumeCoolant
+allowGas: true
+allowLiquid: true
+amount: 0.3
+}
+maxAmmo: 20
+ammoTypes: {
+ploxanth: {
+type: BasicBulletType
+height: 16
+width: 8
+damage: 40
+speed: 6
+lifetime: 33.33333333334
+hitEffect: pointHit
+buildingDamageMultiplier: 0.1
+ammoMultiplier: 4
+}
+}
+targetAir: false
+requirements: [
+quartz/100
+zinc/50
+polycarbon/10
+pletorite/5
+]
+research: {
+parent: CC-turret-2x2
+objectives: [
+{
+type: OnSector
+preset: mountain-sorrows
+}
+]
+}
+researchCost: [
+quartz/1000
+zinc/500
+polycarbon/200
+pletorite/50
+]
+hidden: true

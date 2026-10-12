@@ -1,0 +1,51 @@
+description:
+'''
+Shoots melted blobs at enemies making them burn.
+'''
+name: Mingfite
+type: LiquidTurret
+category: turret
+buildTime: 150
+health: 250
+size: 2
+range: 150
+reload:	20
+liquidCapacity: 30
+ammoTypes: {
+molten-metal: {
+despawnEffect: none
+hitEffect: none
+type: BasicBulletType
+mixColorTo: a69d9d
+mixColorFrom: 807979
+width: 9
+height: 12
+speed: 1.5
+lifetime: 100
+knockback: 0.7
+damage: 20
+layer: 98
+}
+}
+targetAir: false
+requirements: [
+quartz/200
+zinc/150
+polycarbon/50
+glass/80
+]
+research: {
+parent: cynnalloid
+objectives: [
+{
+type: OnSector
+preset: desertic-valley
+}
+]
+}
+researchCost: [
+quartz/2000
+zinc/1500
+polycarbon/500
+glass/800
+]

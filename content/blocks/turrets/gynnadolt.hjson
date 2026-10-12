@@ -1,0 +1,68 @@
+description:
+'''
+Shoots artillery at enemies.
+Can be loaded with other ammo types making the bullets have effects.
+'''
+name: Gynnadolt
+type: ItemTurret
+buildTime: 45
+health: 80
+range: 240
+rotateSpeed: 4
+reload: 30
+coolant: {
+type: ConsumeCoolant
+allowGas: true
+allowLiquid: true
+amount: 0.05
+}
+maxAmmo: 10
+targetAir: false
+ammoTypes: {
+quartz: {
+type: ArtilleryBulletType
+speed: 3
+lifetime: 80
+damage: 16
+width: 5
+height: 4
+buildingDamageMultiplier: 0.1
+ammoMultiplier: 2
+reloadMultiplier: 0.85
+collidesTiles: true
+hitEffect: pointHit
+}
+zinc: {
+type: ArtilleryBulletType
+speed: 3
+lifetime: 80
+damage: 24
+width: 5
+height: 4
+buildingDamageMultiplier: 0.1
+ammoMultiplier: 2
+collidesTiles: true
+hitEffect: pointHit
+}
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: clasmodila-
+}
+category: turret
+itemCapacity: 1
+requirements: [
+quartz/60
+]
+research: {
+parent: cynnalloid
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+researchCost: [
+quartz/400
+]

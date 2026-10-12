@@ -1,0 +1,28 @@
+name: Auto-Door
+type: AutoDoor
+category: defense
+description:
+'
+Automatic door that opens when allied units are closely to it. Cant be manually operated.
+'
+health: 1500
+size: 2
+requirements: [
+zinc/40
+selenium/20
+polycarbon/20
+]
+research: {
+parent: polycarbon-wall
+objectives: [
+{
+type: OnSector
+preset: desertic-valley
+}
+]
+}
+researchCost: [
+zinc/400
+selenium/200
+polycarbon/200
+]

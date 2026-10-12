@@ -1,0 +1,34 @@
+name: Polycarbon Manufacturer
+type: GenericCrafter
+description: Processes carbon to polycarbon.
+health: 60
+size: 2
+buildTime: 60
+hasItems: true
+craftTime: 120
+craftEffect: none
+hasPower: true
+updateEffect: none
+consumes: {
+power: 2
+items: [
+carbon/4
+]
+}
+requirements: [
+quartz/60
+]
+category: crafting
+outputItem: polycarbon/1
+research: {
+parent: core-atom
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+researchCost: [
+quartz/300
+]

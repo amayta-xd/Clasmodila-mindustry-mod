@@ -1,0 +1,70 @@
+description:
+'''
+Shoots medium-sized explosive bullets at enemies. Needed for crowd control
+Can be loaded with other ammo types making the bullets have effects.
+'''
+name: Ploxanator
+type: ItemTurret
+category: turret
+buildTime: 240
+health: 200
+size: 3
+range: 220
+reload:	60
+coolant: {
+type: ConsumeCoolant
+allowGas: true
+allowLiquid: true
+amount: 0.3
+}
+ammoPerShoot: 2
+maxAmmo: 12
+ammoTypes: {
+ploxanth: {
+type: BasicBulletType
+height: 12
+width: 12
+damage: 20
+speed: 5
+lifetime: 44
+splashDamage: 40
+splashDamageRadius: 50
+hitEffect: pointHit
+buildingDamageMultiplier: 0.1
+ammoMultiplier: 6
+fragBullets: 10
+fragVelocityMin: 1
+fragLifeMin: 1
+fragBullet: {
+type: BasicBulletType
+speed: 2
+lifetime: 15
+width: 6
+height: 9
+pierce: false
+damage: 10
+}
+}
+}
+targetAir: false
+requirements: [
+quartz/400
+zinc/300
+zirconium/150
+polycarbon/80
+]
+research: {
+parent: CC-turret-2x2
+objectives: [
+{
+type: OnSector
+preset: mountain-sorrows
+}
+]
+}
+researchCost: [
+quartz/4000
+zinc/3000
+zirconium/750
+polycarbon/800
+]

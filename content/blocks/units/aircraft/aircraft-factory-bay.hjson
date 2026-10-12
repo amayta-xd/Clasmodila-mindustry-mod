@@ -1,0 +1,38 @@
+name: Aircraft Factory Bay
+description: Builds Stukas.
+type: UnitFactory
+health: 180
+size: 3
+consumes: {
+power: 2.5
+}
+plans: [
+{
+unit: t1-aircraft
+time: 750
+requirements: [
+quartz/15
+zinc/25
+]
+}
+]
+requirements: [
+quartz/150
+polycarbon/30
+zinc/250
+]
+category: units
+research: {
+parent: attack-factory-bay
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+quartz/750
+polycarbon/150
+zinc/1250
+]

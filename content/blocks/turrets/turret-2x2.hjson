@@ -1,0 +1,60 @@
+description:
+'''
+Shoots bullets at a fast pace. Great dps.
+Can be loaded with other ammo types making the bullets have effects.
+'''
+name: Machine Gun
+type: ItemTurret
+category: turret
+buildTime: 150
+health: 250
+size: 2
+range: 160
+reload:	15
+coolant: {
+type: ConsumeCoolant
+allowGas: true
+allowLiquid: true
+amount: 0.1
+}
+maxAmmo: 30
+ammoTypes: {
+quartz: {
+type: BasicBulletType
+damage: 12
+lifetime: 40
+speed: 4
+ammoMultiplier: 5
+reloadMultiplier: 0.85
+buildingDamageMultiplier: 0.1
+}
+zinc: {
+type: BasicBulletType
+damage: 16
+lifetime: 40
+speed: 4
+ammoMultiplier: 5
+buildingDamageMultiplier: 0.1
+}
+}
+targetAir: false
+requirements: [
+quartz/90
+zinc/60
+polycarbon/20
+]
+research: {
+parent: cynnalloid
+objectives: [
+{
+type: OnSector
+preset: white-debris
+}
+]
+}
+researchCost: [
+quartz/900
+zinc/600
+polycarbon/200
+]
+

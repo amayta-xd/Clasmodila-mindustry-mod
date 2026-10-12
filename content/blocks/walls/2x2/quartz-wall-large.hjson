@@ -1,0 +1,26 @@
+name: Large Quartz Wall
+type: wall
+category: defense
+buildTime: 16
+description:
+'
+Large defensive structure, protects buildings from damage.
+Due to the material being fragile this wall has low health compared to other walls.
+'
+health: 400
+size: 2
+requirements: [
+quartz/40
+]
+research: {
+parent: quartz-wall
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+researchCost: [
+quartz/600
+]

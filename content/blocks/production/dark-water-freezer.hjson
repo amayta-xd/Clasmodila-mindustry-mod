@@ -1,0 +1,47 @@
+name: Dark Water Freezer
+type: GenericCrafter
+description: Cools down dark water more efficiently. Uses limestone as a filter.
+health: 200
+size: 3
+buildTime: 180
+hasItems: true
+itemCapacity: 10
+liquidCapacity: 60
+craftTime: 180
+craftEffect: none
+hasPower: true
+updateEffect: none
+consumes: {
+power: 3
+items: [
+carbon/2
+limestone/2
+]
+liquids: [
+ozone/0.2
+dark-water/0.6
+]
+}
+requirements: [
+quartz/300
+zinc/150
+polycarbon/60
+glass/200
+]
+category: crafting
+outputLiquid: cooled-dark-water/0.4
+research: {
+parent: dark-water-cooler
+objectives: [
+{
+type: OnSector
+preset: desertic-valley
+}
+]
+}
+researchCost: [
+quartz/3000
+zinc/1500
+polycarbon/600
+glass/2000
+]

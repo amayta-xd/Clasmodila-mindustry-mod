@@ -1,0 +1,29 @@
+name: Large Reinforced Vanadium Wall
+type: wall
+category: defense
+description:
+'
+Large defensive structure, protects buildings from damage. Has armor.
+'
+health: 2800
+armor: 6
+size: 2
+requirements: [
+zinc/40
+vanadium/40
+polycarbon/20
+]
+research: {
+parent: vanadium-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+zinc/400
+vanadium/400
+polycarbon/200
+]

@@ -1,0 +1,24 @@
+name: Large Vanadium Wall
+type: wall
+category: defense
+description:
+'
+Large defensive structure, protects buildings from damage.
+'
+health: 2400
+size: 2
+requirements: [
+vanadium/40
+]
+research: {
+parent: vanadium-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+vanadium/400
+]

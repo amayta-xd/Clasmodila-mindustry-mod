@@ -1,0 +1,27 @@
+name: Reinforced Wall
+type: wall
+category: defense
+description:
+'
+Tiny defensive structure, protects buildings from damage. Has armor.
+'
+health: 380
+armor: 1
+size: 1
+requirements: [
+zinc/10
+polycarbon/5
+]
+research: {
+parent: polycarbon-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+zinc/100
+polycarbon/50
+]

@@ -1,0 +1,29 @@
+name: Reinforced Vanadium Wall
+type: wall
+category: defense
+description:
+'
+Tiny defensive structure, protects buildings from damage. Has armor.
+'
+health: 650
+armor: 2
+size: 1
+requirements: [
+zinc/10
+vanadium/10
+polycarbon/5
+]
+research: {
+parent: vanadium-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+zinc/100
+vanadium/100
+polycarbon/5
+]

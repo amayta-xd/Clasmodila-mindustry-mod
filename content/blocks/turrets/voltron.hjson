@@ -1,0 +1,55 @@
+type: PowerTurret
+name: Voltron
+description: Charges up to launch a succesion of medium range piercing bolt darts.
+category: turret
+buildTime: 210
+size: 2
+reload: 148
+targetAir: false
+consumes: {
+power: 4
+}
+accurateDelay: false
+inaccuracy: 4
+shoot: {
+firstShotDelay: 60
+shots: 7
+shotDelay: 6
+}
+range: 180
+shootSound: railShoot
+chargeSound: lancerLaserCharge
+shootType: {
+type: BasicBulletType
+lightningColor: f0b060
+speed: 6
+lifetime: 30
+lightning: 3
+lightningLength: 6
+lightningDamage: 14
+lightningCone: 90
+damage: 25
+chargeEffect: lightningCharge
+pierceCap: 4
+}
+requirements: [
+quartz/200
+zinc/100
+vanadium/50
+polycarbon/40
+]
+research: {
+parent: accelerator
+objectives: [
+{
+type: OnSector
+preset: mountain-sorrows
+}
+]
+}
+researchCost: [
+quartz/2000
+zinc/1000
+vanadium/250
+polycarbon/400
+]

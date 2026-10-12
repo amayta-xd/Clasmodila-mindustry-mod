@@ -1,0 +1,27 @@
+name: Pletorite Wall
+type: wall
+category: defense
+description:
+'
+Tiny defensive structure, protects buildings from damage. Has armor.
+'
+health: 1200
+armor: 4
+size: 1
+requirements: [
+zirconium/10
+pletorite/5
+]
+research: {
+parent: vanadium-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+zirconium/100
+pletorite/50
+]

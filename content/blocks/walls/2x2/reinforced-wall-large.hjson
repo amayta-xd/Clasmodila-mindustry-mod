@@ -1,0 +1,27 @@
+name: Large Reinforced Wall
+type: wall
+category: defense
+description:
+'
+Large defensive structure, protects buildings from damage. Has armor.
+'
+health: 1520
+armor: 4
+size: 2
+requirements: [
+zinc/40
+polycarbon/20
+]
+research: {
+parent: reinforced-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+zinc/400
+polycarbon/200
+]

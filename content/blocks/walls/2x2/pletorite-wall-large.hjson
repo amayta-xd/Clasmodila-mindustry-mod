@@ -1,0 +1,27 @@
+name: Large Pletorite Wall
+type: wall
+category: defense
+description:
+'
+Large defensive structure, protects buildings from damage. Has armor
+'
+health: 4800
+armor: 10
+size: 2
+requirements: [
+zirconium/40
+pletorite/20
+]
+research: {
+parent: pletorite-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+zirconium/400
+pletorite/200
+]

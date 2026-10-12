@@ -1,0 +1,39 @@
+name: Specialist Factory Bay
+description: Builds Seaxs.
+type: UnitFactory
+health: 800
+size: 3
+consumes: {
+power: 3.5
+}
+plans: [
+{
+unit: t1-specialist
+time: 1500
+requirements: [
+quartz/30
+polycarbon/5
+zinc/20
+]
+}
+]
+requirements: [
+quartz/50
+polycarbon/10
+zinc/35
+]
+category: units
+research: {
+parent: attack-factory-bay
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+quartz/500
+polycarbon/100
+zinc/350
+]

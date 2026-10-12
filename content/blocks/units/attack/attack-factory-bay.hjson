@@ -1,0 +1,38 @@
+name: Attack Factory Bay
+description: Builds mandibles.
+type: UnitFactory
+health: 180
+size: 3
+consumes: {
+power: 2.5
+}
+plans: [
+{
+unit: t1-attack
+time: 600
+requirements: [
+quartz/10
+zinc/20
+]
+}
+]
+requirements: [
+quartz/100
+polycarbon/20
+zinc/200
+]
+category: units
+research: {
+parent: core-atom
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+quartz/500
+polycarbon/100
+zinc/1000
+]

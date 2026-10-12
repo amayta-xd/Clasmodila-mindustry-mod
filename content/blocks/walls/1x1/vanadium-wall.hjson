@@ -1,0 +1,24 @@
+name: Vanadium Wall
+type: wall
+category: defense
+description:
+'
+Tiny defensive structure, protects buildings from damage.
+'
+health: 600
+size: 1
+requirements: [
+vanadium/10
+]
+research: {
+parent: quartz-wall
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+vanadium/100
+]

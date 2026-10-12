@@ -1,0 +1,104 @@
+description:
+'''
+Shoots flak bullets at enemies.
+Can be loaded with other ammo types making the bullets have effects.
+'''
+name: Cynnalloid
+type: ItemTurret
+buildTime: 30
+health: 80
+range: 120
+rotateSpeed: 5
+reload: 30
+coolant: {
+type: ConsumeCoolant
+allowGas: true
+allowLiquid: true
+amount: 0.05
+}
+maxAmmo: 10
+shoot: {
+type: ShootPattern
+shots: 2
+shotDelay: 5
+}
+xRand: 1
+recoilAmount: 2
+shootSound: shoot
+ammoTypes: {
+quartz: {
+type: BasicBulletType
+speed: 3
+lifetime: 40
+damage: 8
+width: 5
+height: 4
+buildingDamageMultiplier: 0.1
+frontColor: b7bcc1
+backColor: 6d7378
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+ammoMultiplier: 2
+reloadMultiplier: 0.85
+collidesTiles: true
+hitEffect: pointHit
+}
+zinc: {
+type: BasicBulletType
+speed: 3
+lifetime: 40
+damage: 12
+width: 5
+height: 4
+buildingDamageMultiplier: 0.1
+frontColor: b7bcc1
+backColor: 6d7378
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+ammoMultiplier: 2
+collidesTiles: true
+hitEffect: pointHit
+}
+}
+shootEffect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+particles: 1
+lifetime: 30
+length: 20
+sizeFrom: 3
+sizeTo: 1
+colorFrom: d1a8a8
+colorTo: 4e5459
+strokeFrom: 1
+strokeTo: 1
+interp: pow3Out
+spin: 1
+sizeInterp: pow2In
+region: shell
+}
+]
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: clasmodila-
+}
+category: turret
+itemCapacity: 1
+requirements: [
+quartz/45
+]
+research: {
+parent: core-atom
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+researchCost: [
+quartz/300
+]
