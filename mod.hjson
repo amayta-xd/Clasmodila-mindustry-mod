@@ -8,10 +8,11 @@ The [accent[]]Sharded[[]] team has sent you here to retrieve information about t
 
 Adds a new storyline to the game where you are selected as the leader of an operation to retake control on [accent[]]Clasmodila[[]] after a new enemy, [accent[]]Anthalos[[]], decided to show up and settle their own regiment.
 [red[]]NOTE: THIS IS A HARD MOD[[]]
+[red[]]IMPORTANT NOTE: BETTER TO BE PLAYED ON A NEW SAVE FILE DUE TO FILE CORRUPTION IN THE FULL RELEASE (AKA COMPLETE RESPRITE AND PROPER UNIT DESING)[[]]
 '''
-subtitle: Mid-game update
+subtitle: Mid-game update (On the making)
 version: "3.0.0"
-minGameVersion: 158.1
+minGameVersion: 159.7
 dependencies: [ ]
 hidden: false
 contentOrder: [
