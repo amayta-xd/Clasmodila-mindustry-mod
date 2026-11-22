@@ -54,8 +54,8 @@ type: ParticleEffect
 particles: 25
 length: 140
 lifetime: 72
-interp: pow5out
-interp: pow5Out
+interp: pow3out
+interp: pow3Out
 cone: 3
 colorFrom: FCB960FF
 colorTo: C97E4700
