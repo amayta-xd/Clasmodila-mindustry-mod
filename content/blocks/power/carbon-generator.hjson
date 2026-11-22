@@ -1,0 +1,53 @@
+name: Carbon Generator
+description:
+'
+Burns carbon to generate low amounts of power.
+I recommend not overusing this as it is inneficient, get other power generators as this is a kickstarter generator.
+'
+buildTime: 30
+type: ConsumeGenerator
+size: 1
+health: 30
+hasLiquids: false
+canOverdrive: true
+itemDuration: 240
+baseExplosiveness: 1
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: drawParticles
+particles: 5
+particleLife: 150
+line: true
+lifetime: 1000
+length: 1000
+color: 909090
+}
+]
+}
+consumes: {
+items: [
+carbon/1
+]
+}
+powerProduction: 1
+category: power
+requirements: [
+quartz/35
+]
+research: {
+parent: core-atom
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+researchCost: [
+quartz/100
+]

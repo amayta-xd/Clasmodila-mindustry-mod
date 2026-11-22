@@ -1,0 +1,77 @@
+name: Turbine Generator
+description: Uses ozone as a depurifier for inputted flammable items making them have better porperties. Uses dark water as a coolant
+type: ConsumeGenerator
+hasLiquids: true
+hasItems: true
+buildTime: 120
+category: power
+size: 2
+health: 120
+liquidCapacity: 30
+powerProduction: 5
+minItemEfficiency: 0.2
+itemDuration: 180
+minLiquidEfficiency: 0.2
+maxLiquidGenerate: 0.4
+consumes:{
+liquids: [
+ozone/0.016666666666666666
+dark-water/0.3
+]
+items: [
+carbon/1
+]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+           type: DrawRegion
+           suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: dark-water
+      alpha: 0.7
+      padding: 2
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -turbine
+      spinSprite: true
+      rotateSpeed: 5
+    }
+    {
+      type: DrawRegion
+      suffix: -cap
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: ozone
+      suffix: -cap-liquid
+    }
+  ]
+}
+requirements: [
+quartz/80
+polycarbon/20
+zinc/40
+]
+research: {
+parent: carbon-generator
+objectives: [
+{
+type: OnSector
+preset: revelation
+}
+]
+}
+researchCost: [
+quartz/800
+polycarbon/200
+zinc/400
+]

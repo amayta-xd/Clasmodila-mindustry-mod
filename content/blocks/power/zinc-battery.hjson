@@ -1,0 +1,43 @@
+name: Zinc Battery
+description: Stores a small amount of power.
+type: battery
+buildTime: 30
+size: 1
+fullLightColor: 79F2EEFF
+emptyLightColor: 565666FF
+hasPower: true
+outputsPower: true
+consumesPower: true
+hasItems: false
+canOverdrive: false
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawRegion
+suffix: -top
+}
+]
+}
+consumes: {
+powerBuffered: 3000
+}
+category: power
+requirements: [
+zinc/10
+]
+research: {
+parent: carbon-generator
+objectives: [
+{
+type: OnSector
+preset: white-debris
+}
+]
+}
+researchCost: [
+zinc/500
+]

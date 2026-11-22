@@ -1,0 +1,25 @@
+name: Quartz Node
+description: A power node with short connection range.
+type: PowerNode
+health: 10
+size: 1
+maxNodes: 10
+laserRange: 5
+laserColor1: ffffff
+laserColor2: 808080
+category: power
+requirements: [
+quartz/4
+]
+research: {
+parent: carbon-generator
+objectives: [
+{
+type: OnSector
+preset: gateway
+}
+]
+}
+researchCost: [
+quartz/20
+]

@@ -1,0 +1,28 @@
+name: Reinforced Quartz Node
+description: A variant of quartz nodes made for frontline defense. Comes equipped with better durability and range at the cost of half the connections and being expensive.
+type: PowerNode
+buildTime: 90
+health: 150
+size: 1
+maxNodes: 5
+laserRange: 8
+laserColor1: ffffff
+laserColor2: 808080
+category: power
+requirements: [
+quartz/48
+polycarbon/12
+]
+research: {
+parent: quartz-node
+objectives: [
+{
+type: OnSector
+preset: white-debris
+}
+]
+}
+researchCost: [
+quartz/480
+polycarbon/120
+]
