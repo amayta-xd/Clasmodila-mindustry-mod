@@ -23,7 +23,8 @@ quartz: {
 type: ArtilleryBulletType
 speed: 3
 lifetime: 80
-damage: 16
+splashDamage: 16
+splashDamageRadius: 8
 width: 5
 height: 4
 buildingDamageMultiplier: 0.1
@@ -36,7 +37,8 @@ zinc: {
 type: ArtilleryBulletType
 speed: 3
 lifetime: 80
-damage: 24
+splashDamage: 24
+splashDamageRadius: 8
 width: 5
 height: 4
 buildingDamageMultiplier: 0.1
